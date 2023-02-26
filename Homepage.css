@@ -1,0 +1,222 @@
+.wrapper {
+    height: 400px;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    vertical-align: middle;
+
+}
+
+.typing-demo {
+    width: 1500px;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 67px;
+    vertical-align: middle;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+h1 {
+    color: rgb(50, 56, 87);
+    font-size: 65px;
+    vertical-align: middle;
+}
+
+h2 {
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #b1deff;
+    background-color: rgb(25, 40, 77);
+}
+
+
+
+.header {
+    margin-top: 150px;
+    background-color: orange;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+h3 {
+    background-color: rgb(25, 40, 77);
+    margin-left: 700px;
+    margin-right: 450px;
+    margin-top: 100x;
+    padding: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-bottom: -100px;
+    color: rgb(255, 170, 0);
+    font-size: 50px;
+}
+
+.divider {
+    margin-top: 50px;
+}
+
+body {
+
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+    font-family: monospace;
+}
+
+.choices {
+    text-align: left;
+    background-color: rgb(255, 179, 39);
+    color: rgb(113, 90, 73);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 50px;
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+.choices_titles {
+    color: rgb(116, 47, 12);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+a {
+    background-color: rgb(255, 153, 0);
+    padding: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(116, 47, 12);
+    display: inline-block;
+}
+
+a:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+.destination_lines {
+    border-left: 6px solid rgb(157, 72, 29);
+    height: 100px;
+    margin-left: 30%;
+    top: 0;
+}
+
+
+
+.button {
+    font-size: 100px;
+    text-align: left;
+    margin-left: 539px;
+    margin-bottom: -60px;
+    padding-left: 5px;
+    color: rgb(157, 72, 29);
+}
+
+.button_end {
+    font-size: 100px;
+    margin-top: -60px;
+    text-align: left;
+    margin-left: 539px;
+    margin-bottom: -60px;
+    padding-left: 5px;
+    color: rgb(157, 72, 29);
+}
+
+.end_of_page {
+    margin-top: 150px;
+}
+
+img {
+    margin-left: -757px;
+    width: 150px;
+}
+
+.spaceship {
+    position: sticky;
+    top: 50%;
+
+
+}
+
+#asteroid1 {
+    position: absolute;
+    margin-top: 77%;
+    margin-left: 10%;
+
+}
+
+#asteroid3 {
+    position: absolute;
+    margin-top: 130%;
+    margin-left: -70%;
+
+
+}
+
+#shooting1 {
+    position: absolute;
+    width: 10%;
+    margin-left: -60%;
+    margin-top: 95%;
+
+}
+
+#shooting2 {
+    position: absolute;
+    width: 10%;
+    margin-top: 50%;
+    margin-left: 50%;
+}
+
+#venus1 {
+    position: absolute;
+    margin-top: 120%;
+    margin-left: 23%;
+}
+
+#meteor1 {
+    position: absolute;
+    margin-top: 150%;
+    margin-left: -50%;
+}
+
+#planet1 {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: -60%;
+}
+
+#astronomy1 {
+    position: relative;
+    top: 700px;
+    left: -550px;
+}
